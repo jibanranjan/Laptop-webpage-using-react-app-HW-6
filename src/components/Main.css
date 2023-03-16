@@ -1,0 +1,76 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+.laptopbody{
+    background-image: url("laptop.jpg");
+    height: 100vh;
+    width: auto;
+     background-repeat: no-repeat;
+      /* background-size: 1400px 640px; */
+      background-size: 85rem 40rem;
+      background-attachment: fixed;
+      /* background-size: cover; background-position: center center; background-repeat: no-repeat; background-attachment: fixed */
+      
+   
+}
+
+
+.laptopscreen{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; background-position: center center; background-repeat: no-repeat; background-attachment: fixed
+}
+
+.laptopwebpage{ width: 49.5rem;
+    height: 27rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 3.7rem;
+    margin-left: 0.3rem;
+    border-radius: 1%;
+
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+    background-color: 	rgb(232,232,232);
+    margin: 0;
+    padding-top: 2rem;
+ }
+
+.navbarlinks li{
+    display: inline;
+    gap: 2rem;
+    padding: 0 20px;
+    font-family: 'Handlee', cursive;
+font-family: 'Source Serif Pro', serif;
+font-weight: 800;
+font-size: 1.5rem;
+}
+
+
+.icons a{
+    padding: 0 10px;
+    color: rgb(112,112,112);
+}
+
+.logo{
+    font-family: 'Handlee', cursive;
+    font-size: 3rem;
+    color: rgb(112,112,112);
+    margin-top: -1.5rem;
+}
+
+.aboutlink ,.contactlink{
+    color: black;
+}
+

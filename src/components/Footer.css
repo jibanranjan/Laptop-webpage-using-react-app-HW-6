@@ -1,0 +1,38 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    
+} */
+
+.mainfooter{
+    height: 65px;
+    width:auto;
+    background-color:	rgb(48,48,48);
+    margin-top: -39px;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    font-size: .5rem;
+    text-align: start;
+    padding: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+   
+    
+}
+
+.firstcontainer, .secondcontainer, .thirdcontainer{
+    flex: 1 0 0;
+}
+
+
+
+.firstcontainer
+{
+    
+}
+
+.secondcontainer{
+    margin-top: -20px;
+}
